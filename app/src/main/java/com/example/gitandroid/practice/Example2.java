@@ -24,7 +24,7 @@ public class Example2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(""));
+                intent.setData(Uri.parse("https://www.baidu.com"));
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class Example2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("com.example.activitytest.ACTION_START");
-                intent.addCategory("com.example.activitytest.MY_CATEGORY"); //添加的另一个页面值为MY_CATEGORY
+                //intent.addCategory("com.example.activitytest.MY_CATEGORY"); //添加的另一个页面值为MY_CATEGORY
                 startActivity(intent);
             }
         });
