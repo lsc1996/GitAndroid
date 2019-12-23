@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.gitandroid.practice.Example1;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button gitbutton1,gitbutton2;
 
@@ -26,7 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.gitbutton1:
-//                Intent intent = new Intent(MainActivity.this)
+                Intent intent = new Intent(MainActivity.this, Example1.class);
+                startActivity(intent);
         }
     }
 

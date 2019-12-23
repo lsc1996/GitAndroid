@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">GitAndroid</string>
+    <string name="activity_main1">第一个</string>
+    <string name="activity_main2">第二个</string>
+    <string name="activity_main3">第三个</string>
+    <string name="activity_main4">第四个</string>
+    <string name="activity_main5">第五个</string>
+    <string name="activity_main6">第六个</string>
+
+    <string name="Toast">Toast</string>
+    <string name="return1">返回</string>
+    <string name="intent1">Intent隐式</string>
+
+    <string name="intent2">跳转到Example1</string>
+    <string name="intent3">跳转百度</string>
+
+    <string name="main_add">Add</string>
+    <string name="main_Remove">Remove</string>
 </resources>
