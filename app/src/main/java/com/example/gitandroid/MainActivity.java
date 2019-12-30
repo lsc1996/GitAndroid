@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.gitandroid.handler.Handler1;
 import com.example.gitandroid.practice.Example1;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void GitButton(){
         gitbutton1 = findViewById(R.id.gitbutton1);
         gitbutton1.setOnClickListener(this);
+        gitbutton2 = findViewById(R.id.gitbutton2);
+        gitbutton2.setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +33,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.gitbutton1:
                 Intent intent = new Intent(MainActivity.this, Example1.class);
                 startActivity(intent);
+                break;
+            case R.id.gitbutton2:
+                Intent intent2 = new Intent(MainActivity.this, Handler1.class);
+                startActivity(intent2);
+                break;
         }
     }
 

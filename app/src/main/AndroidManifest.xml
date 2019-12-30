@@ -26,6 +26,10 @@
             <!--<action android:name="com.example.activitytest.ACTION_START"/>-->
             <!--<category android:name="android.intent.category.DEFAULT"/>-->
         </activity>
+        <activity android:name=".handler.Handler1"></activity>
+
+
+
     </application>
 
 </manifest>
