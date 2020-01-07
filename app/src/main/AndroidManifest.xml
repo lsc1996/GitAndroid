@@ -27,7 +27,7 @@
             <!--<category android:name="android.intent.category.DEFAULT"/>-->
         </activity>
         <activity android:name=".handler.Handler1"></activity>
-
+        <activity android:name=".handler.Handler2"></activity>
 
 
     </application>
