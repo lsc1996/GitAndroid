@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/onclick_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类"
+        />
+    <Button
+        android:id="@+id/onclick_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用内部类"
+        android:layout_below="@id/onclick_btn1"
+        />
+    <Button
+        android:id="@+id/onclick_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用外部类"
+        android:layout_below="@id/onclick_btn2"
+        />
+    <TextView
+        android:id="@+id/onclick_btn3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="onclick_btn3的TextView"
+        android:layout_toRightOf="@id/onclick_btn3"
+        android:layout_marginTop="110dp"
+        />
+    <Button
+        android:id="@+id/onclick_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直接使用Activity作为事件监听器"
+        android:layout_below="@id/onclick_btn3"
+        />
+    <Button
+        android:id="@+id/onclick_btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直接绑定到标签"
+        android:layout_below="@id/onclick_btn4"
+        android:onClick="onclick_btn5"
+        />
+    <Button
+        android:id="@+id/onclick_btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基于回调的事件处理机制"
+        android:layout_below="@id/onclick_btn5"
+        android:onClick="onclick_btn5"
+        />
+
+</RelativeLayout>
